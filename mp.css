@@ -21,15 +21,18 @@ div.titlebar{
 	height: 8%;
 	background-color: rgba(255,255,255,0.8);
 	box-shadow: inset 5px 5px 2px white, inset -5px -5px 2px grey;
-	width: 100%;
+    width: 100%;
+    padding: 0.5%;
 	}
 	
 h1.title{
 	color: black;
 	font-size: 4vh;
-	text-align: center;
+    text-align: center;
+    line-height: 4vh;
 	}
-/*sets how elements marked with the class "transform" will transform, if they are transformed.*/
+
+/*sets how elements marked with the class "transform" will transform, if they are transformed.*/
 .transform {
 
   -webkit-transition: all 10s ease;
@@ -40,8 +43,8 @@ h1.title{
 }
 
 div.spacer{
-	width:100%;
-	height:110px;
+	width: 100%;
+	height: 10vh;
 	background-color: rgba(0,0,0,0.0);
 	}
 
