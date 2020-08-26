@@ -35,6 +35,7 @@ function zappo(){
 	var spooky = document.getElementById("spooky");
 		if (spooky.style.display == "none" && zoomie.style.display == "none"){
 			zoomie.style.display = "block";
+			document.getElementByClassName("transform").style.transitionDuration = "10s";
 			document.getElementById("firstright").style.backgroundColor="black";
 			document.getElementById("firstright").setAttribute("onClick","");
 			document.getElementById("firstleft").style.backgroundColor="black";
@@ -49,6 +50,7 @@ function zappo(){
 		else {
 			zoomie.style.display = "none";
 			spooky.style.display = "none";
+			document.getElementByClassName("transform").style.transitionDuration = "1s";
 			document.getElementById("firstright").style.backgroundColor="";
 			document.getElementById("firstright").setAttribute("onClick","zappo()");
 			document.getElementById("firstleft").style.backgroundColor="";
