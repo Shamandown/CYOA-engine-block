@@ -34,7 +34,9 @@ h1.title{
 
 /*sets how elements marked with the class "transform" will transform, if they are transformed.*/
 .transform {
-
+    /* transition-property: all;
+  transition-duration: 10s;
+  transition-timing-function: ease; */
   -webkit-transition: all 10s ease;
   -moz-transition: all 10s ease;
   -o-transition: all 10s ease;
